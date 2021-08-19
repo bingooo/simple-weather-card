@@ -104,6 +104,18 @@ export default class WeatherEntity {
     return this.attr.wind_speed || 0;
   }
 
+  get forecast_keypoint() {
+    return this.attr.forecast_keypoint || "";
+  }
+
+  get forecast_hourly() {
+    return this.attr.forecast_hourly || "";
+  }
+
+  get forecast_minutely() {
+    return this.attr.forecast_minutely || "";
+  }
+
   get pressure() {
     return this.attr.pressure || 0;
   }

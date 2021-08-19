@@ -12,6 +12,9 @@ const UNITS = {
 }
 
 const INFO = {
+  forecast_hourly: { icon: '', unit: '' },
+  forecast_minutely: { icon: '', unit: '' },
+  forecast_keypoint: { icon: '', unit: '' },
   precipitation: { icon: 'rainy', unit: 'length' },
   precipitation_probability: { icon: 'rainy', unit: '%' },
   humidity: { icon: 'humidity', unit: '%' },
